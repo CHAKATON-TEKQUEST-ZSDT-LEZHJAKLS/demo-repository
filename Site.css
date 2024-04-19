@@ -75,14 +75,40 @@ th{
 
 #dzien{
     text-align: center;
+    padding-top: 700px;
+    margin-left: -50px;
 }
+
+#intro{
+    width: 30%;
+    margin-top: 200px;
+    float: left;
+    padding: 20px;
+}
+#intro h2, p {
+    display: inline; 
+
+  
+}
+
+#intro p{
+    line-height: 1.5;
+}
+
+#zdj{
+    width: 40%;
+
+    float: right;
+}
+
+
 
 footer {
     background-color: rgb(0, 110, 255);
     color: aliceblue;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
 }
